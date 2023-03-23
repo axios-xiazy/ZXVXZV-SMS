@@ -24,3 +24,7 @@ python3 main.py
 - [x] API 1 - 10
 - [ ] Premium Version
 - [ ] Proxy Coming soon !
+
+
+
+**© Copyright 2023 ZXVXZV**
