@@ -9,7 +9,7 @@ phone = ''.join(filter(str.isdigit, phone))
 
 
 async def make_request(session, url):
-    async with session.get(url) as response:
+    async with session.head(url) as response:
         if response.status == 200:
             print("Attack Success Status API : ", response.status)
         else:
