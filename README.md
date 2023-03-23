@@ -17,3 +17,10 @@ pip3 install -r requirements.txt
 ```bash
 python3 main.py
 ```
+* หากต้องการหยุดยิงให้กด Ctrl + C
+### สิทธิ์ของ git นี้
+- [x] Normal Version
+- [x] Faster Request x1
+- [x] API 1 - 10
+- [ ] Premium Version
+- [ ] Proxy Coming soon !
