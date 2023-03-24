@@ -13,7 +13,7 @@ phone = 0999999999
 ```bash
 pip3 install -r requirements.txt
 ```
-* ใช้งาน Spam-SmS
+* ใช้งาน ZXVXZV-SMS
 ```bash
 python3 main.py
 ```
