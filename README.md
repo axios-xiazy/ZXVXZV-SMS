@@ -21,7 +21,7 @@ python3 main.py
 ### สิทธิ์ของ git นี้
 - [x] Normal Version
 - [x] Faster Request x1
-- [x] API 1 - 10
+- [x] 5 API
 - [ ] Premium Version
 - [ ] Proxy Coming soon !
 
