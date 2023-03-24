@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 * หากต้องการหยุดยิงให้กด Ctrl + C
-### สิทธิ์ของ git นี้
+### Features !
 - [x] Normal Version
 - [x] Faster Request x1
 - [x] 5 API
