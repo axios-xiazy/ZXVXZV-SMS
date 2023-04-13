@@ -15,7 +15,10 @@ pip3 install -r requirements.txt
 ```
 * ใช้งาน ZXVXZV-SMS
 ```bash
+# Linux
 python3 main.py
+# Window
+python main.py
 ```
 * หากต้องการหยุดยิงให้กด Ctrl + C
 ### Features !
