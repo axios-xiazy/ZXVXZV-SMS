@@ -11,7 +11,10 @@ phone = 0999999999
 ```
 * ก่อนใช้งานต้องติดตั้ง library
 ```bash
+# Linux
 pip3 install -r requirements.txt
+# Window
+pip install -r requirements.txt
 ```
 * ใช้งาน ZXVXZV-SMS
 ```bash
