@@ -27,7 +27,7 @@ python main.py
 ### Features !
 - [x] Normal Version
 - [x] Faster Request x1
-- [x] 5 API
+- [x] 4 API
 - [ ] Premium Version
 - [ ] Proxy Coming soon !
 
